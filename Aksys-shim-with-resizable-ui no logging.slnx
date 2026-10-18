@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Aksys-shim-with-resizable-ui no logging/Aksys-shim-with-resizable-ui no logging.vcxproj" />
+</Solution>
