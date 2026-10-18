@@ -144,7 +144,7 @@ The shim compiles into a 32-bit x86 DLL using the Microsoft Visual C++ compiler 
 2. Clone the repository:
    ```bash
    git clone https://github.com/connectivezone/Aksys-shim-with-resizable-ui-no-logging.git
-   cd Aksys-shim-no-logging
+   cd Aksys-shim-with-resizable-ui-no-logging
    ```
 3. Run the automated build script (which also cleans any stuck collapsed editor layout keys in `HKCU\Software\AKSys\ak.Sys` and installs `version.dll` directly into your `ak.Sys` folder):
    ```cmd
