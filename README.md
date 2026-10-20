@@ -1,10 +1,10 @@
 # Akai S5000 / S6000 (IB-S56USB) — 64-bit Windows WinUSB Proxy Shim & High-DPI UI Scaler (No-Log Release)
 
-[![Windows Support](https://img.shields.io/badge/Windows-7%20%7C%2010%20%7C%2011%20(64--bit)-0078D6?logo=windows&logoColor=white)](https://github.com/connectivezone/Aksys-shim-with-resizable-ui-no-logging)
-[![ak.Sys Compatibility](https://img.shields.io/badge/ak.Sys-v1.53%20Compatible-brightgreen)](https://github.com/connectivezone/Aksys-shim-with-resizable-ui-no-logging)
-[![Hardware](https://img.shields.io/badge/Hardware-Akai%20IB--S56USB-crimson)](https://github.com/connectivezone/Aksys-shim-with-resizable-ui-no-logging)
-[![UI Scaler](https://img.shields.io/badge/High--DPI%20UI%20Scaler-1.0x--2.0x%20%2B%20Free%20Resize-00b4d8)](https://github.com/connectivezone/Aksys-shim-with-resizable-ui-no-logging)
-[![Build](https://img.shields.io/badge/Build-v13.3%20Release%20%2F%20No--Log-success)](https://github.com/connectivezone/Aksys-shim-with-resizable-ui-no-logging/releases)
+[![Windows Support](https://img.shields.io/badge/Windows-7%20%7C%2010%20%7C%2011%20(64--bit)-0078D6?logo=windows&logoColor=white)](https://github.com/connectivezone/Aksys-shim-no-logging)
+[![ak.Sys Compatibility](https://img.shields.io/badge/ak.Sys-v1.53%20Compatible-brightgreen)](https://github.com/connectivezone/Aksys-shim-no-logging)
+[![Hardware](https://img.shields.io/badge/Hardware-Akai%20IB--S56USB-crimson)](https://github.com/connectivezone/Aksys-shim-no-logging)
+[![UI Scaler](https://img.shields.io/badge/High--DPI%20UI%20Scaler-1.0x--2.0x%20%2B%20Free%20Resize-00b4d8)](https://github.com/connectivezone/Aksys-shim-no-logging)
+[![Build](https://img.shields.io/badge/Build-v13.3%20Release%20%2F%20No--Log-success)](https://github.com/connectivezone/Aksys-shim-no-logging/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A lightweight 32-bit user-mode WinUSB proxy shim and High-DPI UI scaler (`version.dll`) that allows **Akai ak.Sys (v1.53)** to run seamlessly on **64-bit Windows 11, Windows 10, and Windows 7** without custom kernel drivers, without disabling Windows Driver Signature Enforcement, and without test-signing mode—while upgrading `ak.Sys` with **real-time resizable editor windows**, **floating zoom controls**, and **High-DPI / 4K scaling**.
@@ -49,7 +49,7 @@ Rather than installing unsigned 64-bit third-party kernel drivers or putting Win
 
 ## 🚀 Quick Start (Pre-Built Binary)
 
-If you downloaded `version.dll` from the [Releases](https://github.com/connectivezone/Aksys-shim-with-resizable-ui-no-logging/releases) tab:
+If you downloaded `version.dll` from the [Releases](https://github.com/connectivezone/Aksys-shim-no-logging/releases) tab:
 
 ### Step 1: Assign Microsoft WinUSB in Device Manager
 
@@ -143,8 +143,8 @@ The shim compiles into a 32-bit x86 DLL using the Microsoft Visual C++ compiler 
 1. Open an **Administrator x86 Native Tools Command Prompt for VS** (or run the batch file as Administrator—it will auto-locate `vcvars32.bat`).
 2. Clone the repository:
    ```bash
-   git clone https://github.com/connectivezone/Aksys-shim-with-resizable-ui-no-logging.git
-   cd Aksys-shim-with-resizable-ui-no-logging
+   git clone https://github.com/connectivezone/Aksys-shim-no-logging.git
+   cd Aksys-shim-no-logging
    ```
 3. Run the automated build script (which also cleans any stuck collapsed editor layout keys in `HKCU\Software\AKSys\ak.Sys` and installs `version.dll` directly into your `ak.Sys` folder):
    ```cmd
