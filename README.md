@@ -7,7 +7,7 @@
 [![Build](https://img.shields.io/badge/Build-v13.3%20Release%20%2F%20No--Log-success)](https://github.com/connectivezone/Aksys-shim-no-logging/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A lightweight 32-bit user-mode WinUSB proxy shim and High-DPI UI scaler (`version.dll`) that allows **Akai ak.Sys (v1.53)** to run seamlessly on **64-bit Windows 11, Windows 10, and Windows 7** without custom kernel drivers, without disabling Windows Driver Signature Enforcement, and without test-signing mode—while upgrading `ak.Sys` with **real-time resizable editor windows**, **floating zoom controls**, and **High-DPI / 4K scaling**.
+A lightweight 32-bit user-mode WinUSB proxy shim and High-DPI UI scaler (`version.dll`) that allows **Akai ak.Sys (v1.53+) (V.2.53 Recommended)** to run seamlessly on **64-bit Windows 11, Windows 10, and Windows 7** without custom kernel drivers, without disabling Windows Driver Signature Enforcement, and without test-signing mode—while upgrading `ak.Sys` with **real-time resizable editor windows**, **floating zoom controls**, and **High-DPI / 4K scaling**.
 
 This is the **v13.3 Production Release / No-Logging** build: all diagnostic file writing (`akai_shim_debug.log`) and debug hooks have been stripped out, providing zero disk I/O overhead and maximum USB transfer bandwidth for high-speed sample dumps, program transfers, and real-time screen streaming.
 
